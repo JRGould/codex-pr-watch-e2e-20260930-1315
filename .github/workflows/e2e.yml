@@ -1,0 +1,14 @@
+name: PR Watch E2E
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gate:
+    name: e2e-required
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - name: Synthetic gate
+        run: exit 0
