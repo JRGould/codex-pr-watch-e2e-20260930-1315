@@ -11,4 +11,4 @@ jobs:
     timeout-minutes: 1
     steps:
       - name: Synthetic gate
-        run: exit 0
+        run: exit 1
