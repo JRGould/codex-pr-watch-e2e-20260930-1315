@@ -1,0 +1,1 @@
+Synthetic fixture for PR Watch: initial passing head.
